@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/r/:id", "destination": "/index.html" },
+    { "source": "/acct/me", "destination": "https://countries-game-khaki.vercel.app/api/me" }
+  ]
+}
